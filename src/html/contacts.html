@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts</title>
+    <link rel="stylesheet" href="/src/Style/header.css" />
+    <link rel="stylesheet" href="/src/Style/main.css" />
+    <link rel="stylesheet" href="/src/Style/footer.css" />
+    <script
+      src="https://kit.fontawesome.com/444822b098.js"
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="/src/js/contacts.js"></script>
+
+</head>
+<body>
+    <header>
+        <h2><a href="../../index.html">Josue Ngoma</a></h2>
+        <div id="titred">
+          <a href="#" class="td">CV</a>
+          <div class="barre"></div>
+          <a href="#" class="td">Projets</a>
+          <div class="barre"></div>
+          <a href="#" class="td">Contacts</a>
+        </div>
+    </header>
+    <main id="main_contacts">
+      <div id="main_left">
+        <h3>Contact</h3>
+        <div>
+          <p><b>Téléphone</b></p>
+          <p class="p-adrss"><a id="a-adrss" href="tel:+243-898-464-570">+243-898-464-570</a></p>
+        </div>
+        <div>
+          <p><b>Email</b></p>
+          <p class="p-adrss">josuengoma26@gmail.com</p>
+        </div>
+      </div>
+      <form id="main_right">
+        <div>
+          <div class="div_field">
+            <label for="firstName">Votre Prénom</label>
+            <input type="text" name="firstName" class="field" id="firstName">
+          </div>
+          <div class="div_field">
+            <label for="email">Votre Email</label>
+            <input type="email" name="email" class="field" id="email">
+          </div>
+          <div class="div_field">
+            <label for="message">Votre message</label>
+            <textarea name="message" id="message" class="field" rows="5"></textarea>
+          </div>
+        </div>
+        <div>
+          <div class="div_field">
+            <label for="lastName">Votre nom</label>
+            <input type="text" name="lastName" class="field" id="lastName">
+          </div>
+          <div class="div_field">
+            <label for="objet">L'objet de votre message</label>
+            <input type="text" name="objet" class="field" id="objet">
+          </div>
+          <div id="card_btn">
+            <!-- <input type="submit" id="btn_send" class="btn-crcl" value="Envoyer" /> -->
+            <button id="btn_send" class="btn-crcl">Envoyer</button>
+          </div>
+        </div>
+      </form>
+    </main>
+    <footer>
+        <div id="div-hr"></div>
+        <div class="div-foot">
+          <div>
+            <p><b>Téléphone</b></p>
+            <p class="p-adrss"><a id="a-adrss" href="tel:+243-898-464-570">+243-898-464-570</a></p>
+          </div>
+          <div>
+            <p><b>Email</b></p>
+            <p class="p-adrss">josuengoma26@gmail.com</p>
+          </div>
+          <div>
+            <p><b>Suivez-moi</b></p>
+            <div class="div-foot">
+              <a href="https://www.instagram.com/" target="_blank"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="https://fr.linkedin.com/" target="_blank"
+                ><i class="fa-brands fa-linkedin-in"></i
+              ></a>
+              <a href="https://X.com" target="_blank"
+                ><i class="fa-brands fa-twitter"></i
+              ></a>
+            </div>
+          </div>
+          <div>
+            <p>&copy; 2024 By Josue Ngoma</p>
+          </div>
+        </div>
+      </footer>
+</body>
+</html>

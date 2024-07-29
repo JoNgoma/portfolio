@@ -1,0 +1,30 @@
+#div-hr {
+    height: 1px;
+    width: 85vw;
+    background-color: var(--noir-barre);
+}
+
+.div-foot {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.p-adrss {
+    text-decoration: none;
+    margin: 10px 0 15px 0;
+    font-size: 16px;
+    color: var(--noir-adrss);
+}
+
+#a-adrss, #num-adrss {
+    text-decoration: none;
+    color: var(--noir-adrss);
+}
+
+#a-adrss:hover, #num-adrss:hover{
+    text-decoration: underline;
+}
+i {
+    color: var(--noir-titre);
+}

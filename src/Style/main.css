@@ -1,0 +1,126 @@
+img {
+    margin-top: 2px;
+    width: 19em;
+    height: 19em;
+
+    border-radius: 50%;
+}
+
+main {
+    display: flex;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+    column-gap: 6%;
+    width: 750px;
+    height: 520px;
+}
+
+h3 {
+    font-size: 32px;
+    margin: 0 0 12px 0;
+    color: rgb(31, 30, 30);
+}
+
+h4 {
+    font-size: 20px;
+    color: var(--noir-autre);
+}
+
+#div-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 98%;
+}
+
+.p-cont {
+    font-size: 18px;
+    margin: 10px 0;
+    color: rgb(34, 34, 34);
+    text-align: justify;
+}
+
+#div-btn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-crcl {
+    margin-top: 15px;
+    width: 95px;
+    height: 95px;
+    border: 1px solid var(--noir-barre);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 600;
+    color: black;
+}
+
+.btn-crcl:hover {
+    color: white;
+    border: 1px solid white;
+}
+
+#btnCv {
+    background-color: rgb(234, 158, 45);
+}
+
+#btnProject {
+    background-color: rgb(202, 62, 57);
+}
+
+#btnContacts {
+    background-color: rgb(140, 236, 236);
+}
+
+
+/* ////////////////////////// Contacts //////////////////////////////// */
+
+#main_contacts{
+    height: 40%;
+    /* border: gray solid 1px; */
+    align-items: start;
+    justify-content: space-between;
+
+    width: 80vw;
+}
+#main_left{
+    display: flex;
+    flex-direction: column;
+    gap:1em;
+}
+
+#main_right{
+    display: flex;
+    column-gap: 2vw;
+}
+
+.div_field{
+    display: flex;
+    flex-direction: column ;
+}
+input, textarea{
+    background-color: transparent;
+    border: none;
+    border: grey 1px solid;
+    padding: .8em;
+    margin: .5em 0 2em;
+    border-radius: 5px;
+    width: 20vw;
+}
+
+#card_btn{
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+}
+
+#btn_send {
+    background-color: rgb(234, 158, 45);
+}
+

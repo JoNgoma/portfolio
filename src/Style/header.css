@@ -1,8 +1,3 @@
-* {
-    margin: 0;
-    padding: 0;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-}
 
 :root {
     --noir-autre: rgb(31, 30, 30);
@@ -11,25 +6,17 @@
     --noir-barre: rgb(131, 130, 130);
 }
 
-body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    background-color: rgb(255, 255, 255);
-    height: 100vh;
-}
-
 header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 90%;
+    width: 85vw;
     margin-top: 10px;
 }
 
 #titred {
     display: flex;
+    column-gap: .8em;
 }
 
 h2 a {
@@ -49,10 +36,7 @@ h2 a {
 }
 
 .barre {
-    width: 2px;
-    height: 17px;
-    background-color: var(--noir-barre);
-    margin: 0 15px;
+    font-size: 16px;
 }
 
 

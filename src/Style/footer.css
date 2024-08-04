@@ -17,12 +17,12 @@
     color: var(--noir-adrss);
 }
 
-#a-adrss, #num-adrss {
+#a-adrss {
     text-decoration: none;
     color: var(--noir-adrss);
 }
 
-#a-adrss:hover, #num-adrss:hover{
+#a-adrss:hover{
     text-decoration: underline;
 }
 i {

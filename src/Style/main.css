@@ -1,7 +1,14 @@
+:root {
+    --noir-autre: rgb(31, 30, 30);
+    --noir-titre: rgb(34, 34, 34);
+    --noir-adrss: rgb(48, 47, 47);
+    --noir-barre: rgb(131, 130, 130);
+}
+
 img {
     margin-top: 2px;
-    width: 19em;
-    height: 19em;
+    width: 20em;
+    height: 20em;
 
     border-radius: 50%;
 }
@@ -36,9 +43,8 @@ h4 {
 
 .p-cont {
     font-size: 18px;
-    margin: 10px 0;
+    margin: 8px 0;
     color: rgb(34, 34, 34);
-    text-align: justify;
 }
 
 #div-btn {
@@ -80,7 +86,7 @@ h4 {
 
 /* ////////////////////////// Contacts //////////////////////////////// */
 
-#main_contacts{
+#main_contacts {
     height: 40%;
     /* border: gray solid 1px; */
     align-items: start;
@@ -88,22 +94,25 @@ h4 {
 
     width: 80vw;
 }
-#main_left{
+
+#main_left {
     display: flex;
     flex-direction: column;
-    gap:1em;
+    gap: 1em;
 }
 
-#main_right{
+#main_right {
     display: flex;
     column-gap: 2vw;
 }
 
-.div_field{
+.div_field {
     display: flex;
-    flex-direction: column ;
+    flex-direction: column;
 }
-input, textarea{
+
+input,
+textarea {
     background-color: transparent;
     border: none;
     border: grey 1px solid;
@@ -113,7 +122,7 @@ input, textarea{
     width: 20vw;
 }
 
-#card_btn{
+#card_btn {
     width: 100%;
     padding: 10px 0;
     display: flex;
@@ -124,3 +133,63 @@ input, textarea{
     background-color: rgb(234, 158, 45);
 }
 
+/*//////////////////////////////////////CV///////////////////////////*/
+
+#mainCv {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: auto;
+    height: auto;
+}
+
+#cvTitle {
+    font-size: 2em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#mainCv h2 {
+    width: 100%;
+    padding: 15px 0 30px;
+}
+
+#mainCv h3 {
+    font-size: 1.5em;
+    padding: 0;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+#mainCv h4 {
+    font-size: 1.3em;
+    padding: 10px 0;
+    text-transform: capitalize;
+    font-weight: 900;
+}
+
+#mainCv p {
+    font-size: 1.1em;
+    padding-bottom: 5px;
+
+}
+
+.midlegroup {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+
+#mainCv section {
+    margin-bottom: 1em;
+
+}
+
+#sectionStudy {
+    background-color:antiquewhite
+}
+#sectionFormation {
+    background-color:antiquewhite
+}

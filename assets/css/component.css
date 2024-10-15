@@ -65,7 +65,7 @@
 }
 
 input {
-    text-align-last: center;
+    text-align-last: left;
 }
 
 input,
@@ -73,7 +73,7 @@ textarea {
     background-color: transparent;
     border: none;
     border: rgb(77, 76, 76) 1px solid;
-    padding: .8em 0;
+    padding: .8em .8em;
     margin: .5em 0 2em;
     border-radius: 4px;
     width: 100%;

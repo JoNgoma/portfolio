@@ -1,90 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Josue Ngoma Portfolio</title>
-    <link rel="stylesheet" href="src/Style/disposition.css" />
-    <link rel="stylesheet" href="src/Style/header.css" />
-    <link rel="stylesheet" href="src/Style/main.css" />
-    <link rel="stylesheet" href="src/Style/footer.css" />
-    <script defer src="/src/js/index.js"></script>
-    <script
-      src="https://kit.fontawesome.com/444822b098.js"
-      crossorigin="anonymous"
-    ></script>
-  </head>
-  <body class="bodyVh100">
-    <header>
-      <h2><a href="index.html">Josue Ngoma</a></h2>
-      <div id="titred">
-        <a href="src/html/cv.html" class="td">CV</a>
-        <p class="barre">|</p>
-        <a href="src/html/projets.html" class="td">Projets</a>
-        <p class="barre">|</p>
-        <a href="src/html/contacts.html" class="td">Contacts</a>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <script src="https://kit.fontawesome.com/444822b098.js" crossorigin="anonymous"></script>
+  <title>Josue Portfolio</title>
+  <link rel="stylesheet" href="assets/css/index.css" />
+
+</head>
+
+<body class="display-flex content-center res-body">
+  <header class="height-em display-flex direction-column align-center content-evenly res-header">
+    <h1>
+      <a href="index.html">Josue Ngoma</a>
+    </h1>
+    <nav class="display-flex align-center content-center col-gap10">
+      <a href="cv.html">CV</a>
+      |
+      <a href="projets.html">Projets</a>
+      |
+      <a href="contacts.html">Contact</a>
+    </nav>
+  </header>
+
+  <main class="width-80 display-flex direction-column align-center res-main-accueil">
+    <div>
+      <img id="profile" src="assets/img/lazquir.jpg" alt="Img of Josué" />
+    </div>
+    <div class="res-accueil">
+      <h2 class="h2 text-center margin-08em">Hello</h2>
+      <h3 class="text-center margin-04em weight-400">Je suis <b>Josué Ngoma</b>,</h3>
+      <p class="text-center line-height">
+        Développeur web full stack passionné, doté d'une créativité débordante
+        et d'un talent pour concrétiser des idées en expériences numériques
+        interactives.
+      </p>
+      <div class="display-flex width-100 content-between margin-2em">
+        <a class="btn-crcl" id="btn-cv" href="/src/html/cv.html">CV</a>
+        <a class="btn-crcl" id="btn-project" href="/src/html/projets.html">Projets</a>
+        <a class="btn-crcl" id="btn-contact" href="/src/html/contacts.html">Contact</a>
+
       </div>
-    </header>
-    <main>
-      <div id="div-img">
-        <img src="assets/img/lazquir.jpg" alt="Img of Nicol Rider" />
+    </div>
+  </main>
+
+  <footer class="width-80 margin-2em res-main-accueil-footer">
+    <hr class="margin-bottom-2em"/>
+    <div class="display-flex direction-column align-center row-gap20 res-footer">
+      <div class="display-flex direction-column align-center row-gap10">
+        <h4 class="display-none res-visible">Téléphone</h4>
+        <i class="fa-solid fa-phone res-none"></i>
+        <a id="tel" href="tel:+243-898-464-570">+243-898-464-570</a>
       </div>
-      <div id="div-cont">
-        <h3>Hello</h3>
-        <h4>A propos de moi</h4>
-        <p class="p-cont">
-          Je suis <b>Josue Ngoma</b>, un développeur web passionné doté d'une
-          créativité débordante et d'un talent pour concrétiser des idées en
-          expériences numériques interactives.
-        </p>
-        <div id="div-btn">
-          <input type="submit" id="btnCv" class="btn-crcl" value="CV" />
-          <input
-            type="submit"
-            id="btnProject"
-            class="btn-crcl"
-            value="Projets"
-          />
-          <input
-            type="submit"
-            id="btnContacts"
-            class="btn-crcl"
-            value="Contacts"
-          />
-        </div>
+      <div class="display-flex direction-column align-center row-gap10">
+        <h4 class="display-none res-visible">Email</h4>
+        <i class="fa-solid fa-envelope res-none"></i>
+        <a id="email" href="mailto:josuengoma26@gmail.com">josuengoma26@gmail.com</a>
       </div>
-    </main>
-    <footer>
-      <div id="div-hr"></div>
-      <div class="div-foot">
-        <div>
-          <p><b>Téléphone</b></p>
-          <p class="p-adrss">
-            <a id="a-adrss" href="tel:+243-898-464-570">+243-898-464-570</a>
-          </p>
-        </div>
-        <div>
-          <p><b>Email</b></p>
-          <p class="p-adrss">josuengoma26@gmail.com</p>
-        </div>
-        <div>
-          <p><b>Suivez-moi</b></p>
-          <div class="div-foot">
-            <a href="https://www.instagram.com/" target="_blank"
-              ><i class="fa-brands fa-instagram"></i
-            ></a>
-            <a href="https://fr.linkedin.com/" target="_blank"
-              ><i class="fa-brands fa-linkedin-in"></i
-            ></a>
-            <a href="https://X.com" target="_blank"
-              ><i class="fa-brands fa-twitter"></i
-            ></a>
-          </div>
-        </div>
-        <div>
-          <p>&copy; 2024 By Josue Ngoma</p>
+      <div class="res-container-link">
+        <h4 class="display-none res-visible">Suivez-moi</h4>
+        <div class="list-link">
+          <a href="https://www.instagram.com/" target="_blank">
+            <i class="fa-brands fa-instagram"></i></a>
+          <a href="https://fr.linkedin.com/" target="_blank">
+            <i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="https://X.com" target="_blank">
+            <i class="fa-brands fa-twitter"></i></a>
         </div>
       </div>
-    </footer>
-  </body>
+      <div>
+        <p class="p-footer-size">&copy; 2024 By Josue Ngoma</p>
+      </div>
+    </div>
+  </footer>
+</body>
+
 </html>

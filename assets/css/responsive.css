@@ -1,0 +1,135 @@
+@media (min-width: 768px) {
+    .res-body {
+        font-size: 20px;
+        height: 100vh;
+        justify-content: space-between;
+    }
+
+    .res-header {
+        margin-top: 1em;
+        width: 90vw;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .res-main-accueil {
+        width: 80%;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .res-accueil {
+        width: 50%;
+    }
+
+    .res-accueil h2,
+    .res-accueil h3,
+    .res-accueil p {
+        text-align: justify;
+    }
+
+    .res-footer {
+        flex-direction: row;
+        align-items: start;
+        justify-content: space-between;
+    }
+
+    .res-footer>div {
+        display: flex;
+        align-items: start;
+        text-align-last: left;
+    }
+
+    .res-contact {
+        display: flex;
+        flex-direction: row;
+        max-width: 55em;
+        align-items: start;
+        justify-content: space-between;
+    }
+
+    .res-left-contact {
+        margin: 0;
+        width: 38%;
+        align-items: start;
+    }
+
+    .res-left-contact>div {
+        align-items: start;
+    }
+
+    .res-left-contact>div>div {
+        align-items: start;
+        text-align: left;
+    }
+
+    .res-fomulaire {
+        display: flex;
+        flex-direction: row;
+        align-items: start;
+        column-gap: 2em;
+    }
+
+    .res-fomulaire .btn-crcl{
+        padding: 3.5em;
+        margin-top: 10px;
+    }
+
+    .res-container-link {
+        display: flex;
+        flex-direction: column;
+        row-gap: 8px;
+    }
+
+    .res-container-link div {
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
+    .res-visible {
+        display: contents;
+    }
+
+    .res-none {
+        display: none;
+    }
+
+    .res-margin0 {
+        margin: 0;
+    }
+
+    .res-margin-1em {
+        margin: 1em 0;
+    }
+
+    .res-container-projet {
+        display: flex;
+        justify-content: space-between;
+        padding: 1em 0;
+    }
+
+    .res-subcontainer-projet {
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+    }
+
+    .res-subcontainer-cv {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .res-subcontainer-cv h5,
+    .res-subcontainer-cv span {
+        font-size: 19px;
+    }
+
+}
+
+@media (min-width: 1560px) {
+    .res-main-accueil, .res-main-accueil-footer{
+        width: 60%;
+    }
+}

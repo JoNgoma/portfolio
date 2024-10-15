@@ -1,0 +1,156 @@
+:root {
+    --black-text: rgb(34, 34, 34);
+    --black-link: rgb(71, 71, 71);
+    --black-hr: rgb(179, 178, 178);
+}
+
+
+h1 a {
+    font-size: 22px;
+    font-weight: 900;
+}
+
+
+
+a, .btn-crcl {
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+
+}
+
+hr{
+    border: .1px rgb(226, 226, 226) solid;
+}
+nav {
+    color: var(--black-link);
+    font-size: 16px;
+}
+
+.line-height {
+    line-height: 30px;
+}
+
+.h2 {
+    font-size: 44px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+h4 {
+    font-size: 18.5px;
+}
+
+h5{
+    font-size: 18px;
+    line-height: 22px;
+}
+p {
+    font-size: 16px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.weight-400 {
+    font-weight: 400;
+}
+
+.p-footer-size {
+    font-size: 12px;
+}
+
+h5+span, p+span{
+    color: var(--black-link);
+    font-size: 16px;
+}
+
+.h5 {
+    color: black;
+    font-size: 18px;
+}
+
+section ul {
+    padding: 0 20px;
+}
+
+section ul li, section p {
+    line-height: 22px;
+}
+
+
+@media (min-width: 768px) {
+    .h2{
+        font-size: 64px;
+    }
+
+    a, .btn-crcl {
+        font-size: 18px;
+    }
+    h2 {
+        font-size: 26px;
+    }
+    
+    h3 {
+        font-size: 22px;
+    }
+    
+    h4 {
+        font-size: 20.5px;
+    }
+    
+    h5{
+        font-size: 20px;
+        line-height: 22px;
+    }
+    p {
+        font-size: 18px;
+    }
+    
+    .text-center {
+        text-align: center;
+    }
+    
+    .text-justify {
+        text-align: justify;
+    }
+    
+    .weight-400 {
+        font-weight: 400;
+    }
+    
+    .p-footer-size {
+        font-size: 14px;
+    }
+    
+    h5+span{
+        font-size: 20px;
+    }
+    
+    .h5 {
+        font-size: 20px;
+    }
+
+    .res-subcontainer-projet p, .res-subcontainer-projet li{
+        line-height: 28px;
+    }
+
+    .res-subcontainer-projet li, .res-container-cv li{
+        padding: 5px;
+    }
+}

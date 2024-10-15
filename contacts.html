@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <script src="https://kit.fontawesome.com/444822b098.js" crossorigin="anonymous">
+
+  </script>
+  <title>Josue Contact</title>
+  <link rel="stylesheet" href="assets/css/index.css" />
+</head>
+
+<body class="heght-100 width-90 res-body">
+
+  <header class="height-em display-flex direction-column align-center content-evenly res-header">
+    <h1>
+      <a href="index.html">Josue Ngoma</a>
+    </h1>
+    <nav class="display-flex align-center content-center col-gap10">
+      <a href="cv.html">CV</a>
+      |
+      <a href="projets.html">Projets</a>
+      |
+      <a href="contacts.html">Contact</a>
+    </nav>
+  </header>
+
+  <main class="width-80 display-flex direction-column align-center res-contact">
+    <div class="width-100 display-flex direction-column margin-2em res-left-contact">
+      <h3 class="text-center">
+        Contact
+      </h3>
+      <div class="display-flex direction-column align-center row-gap20 margin-1em">
+        <div class="display-flex direction-column align-center row-gap10">
+          <h4 class="display-none res-visible">Téléphone</h4>
+          <i class="fa-solid fa-phone res-none"></i>
+          <a id="tel" href="tel:+243-898-464-570">+243-898-464-570</a>
+        </div>
+        <div class="display-flex direction-column align-center row-gap10">
+          <h4 class="display-none res-visible">Email</h4>
+          <i class="fa-solid fa-envelope res-none"></i>
+          <a id="email" href="mailto:josuengoma26@gmail.com">josuengoma26@gmail.com</a>
+        </div>
+      </div>
+    </div>
+    <form class="res-fomulaire">
+      <div class="form-left">
+        <div>
+          <label for="firstName">Votre Prénom</label>
+          <input type="text" name="firstName" class="field" id="firstName" />
+        </div>
+        <div>
+          <label for="email">Votre Email</label>
+          <input type="email" name="email" class="field" id="email" />
+        </div>
+        <div>
+          <label for="message">Votre message</label>
+          <textarea name="message" id="message" class="field" rows="5"></textarea>
+        </div>
+      </div>
+      <div class="form-right">
+        <div>
+          <label for="lastName">Votre nom</label>
+          <input type="text" name="lastName" class="field" id="lastName" />
+        </div>
+        <div>
+          <label for="objet">L'objet de votre message</label>
+          <input type="text" name="objet" class="field" id="objet" />
+        </div>
+        <div class="display-flex width-100 content-center">
+          <button id="btn-send" class="btn-crcl">Envoyer</button>
+        </div>
+      </div>
+    </form>
+  </main>
+
+  <footer class="width-80 margin-2em">
+    <hr class="margin-bottom-2em"/>
+    <div class="display-flex direction-column align-center row-gap20 res-footer">
+      <div class="display-flex direction-column align-center row-gap10">
+        <h4 class="display-none res-visible">Téléphone</h4>
+        <i class="fa-solid fa-phone res-none"></i>
+        <a id="tel" href="tel:+243-898-464-570">+243-898-464-570</a>
+      </div>
+      <div class="display-flex direction-column align-center row-gap10">
+        <h4 class="display-none res-visible">Email</h4>
+        <i class="fa-solid fa-envelope res-none"></i>
+        <a id="email" href="mailto:josuengoma26@gmail.com">josuengoma26@gmail.com</a>
+      </div>
+      <div class="res-container-link">
+        <h4 class="display-none res-visible">Suivez-moi</h4>
+        <div class="list-link">
+          <a href="https://www.instagram.com/" target="_blank">
+            <i class="fa-brands fa-instagram"></i></a>
+          <a href="https://fr.linkedin.com/" target="_blank">
+            <i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="https://X.com" target="_blank">
+            <i class="fa-brands fa-twitter"></i></a>
+        </div>
+      </div>
+      <div>
+        <p class="p-footer-size">&copy; 2024 By Josue Ngoma</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>

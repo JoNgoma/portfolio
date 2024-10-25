@@ -66,12 +66,21 @@
 
     .res-fomulaire {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
+        align-items: start;
+        column-gap: 2em;
+        width: 100%;
+    }
+
+    .res-bloc-fomulaire {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
         align-items: start;
         column-gap: 2em;
     }
 
-    .res-fomulaire .btn-crcl{
+    .res-fomulaire .btn-crcl {
         padding: 3.5em;
         margin-top: 10px;
     }
@@ -129,7 +138,9 @@
 }
 
 @media (min-width: 1560px) {
-    .res-main-accueil, .res-main-accueil-footer{
+
+    .res-main-accueil,
+    .res-main-accueil-footer {
         width: 60%;
     }
 }

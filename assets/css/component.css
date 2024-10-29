@@ -10,13 +10,13 @@
 .img-projet {
     max-width: 92.53%;
     height: 44vw;
-    border: .7em solid rgb(235, 234, 234);
+    border: .7em solid #fafafa;
 }
 
 .btn-crcl {
     width: 85px;
     height: 85px;
-    border: 1px solid var(--noir-barre);
+    border: 1px solid #5a5a5a;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -29,25 +29,21 @@
 .btn-crcl:hover {
     color: white;
     font-weight: 700;
-    border: 1px solid #313131;
+    border: 1px solid #fafafa;
+    text-decoration: none;
 }
 
 #btn-cv {
     background-color: #eea302;
-    border: 1px solid #eea302;
-
 }
 
 #btn-project {
     background-color: #e13b25;
-    border: 1px solid #e13b25;
 
 }
 
 #btn-contact {
     background-color: #80d8da;
-    border: 1px solid #80d8da;
-
 }
 
 #btn-send {
